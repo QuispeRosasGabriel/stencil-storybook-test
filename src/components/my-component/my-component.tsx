@@ -27,6 +27,6 @@ export class MyComponent {
   }
 
   render() {
-    return <button>Hello, World! I'm {this.getText()}</button>;
+    return <button>Soy un componente de Stencil en Storybook{this.getText()}</button>;
   }
 }
